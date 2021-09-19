@@ -7,3 +7,28 @@ $very-dark-blue: hsl(209, 33%, 12%);
 $primary-font-size: 20px;
 $primary-font-family:'Libre Franklin', sans-serif;
 // === / varriables ===
+
+// === common styles ===
+:root {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: $primary-font-family;
+    font-size: $primary-font-size;
+}
+
+.page-container {
+    max-width: 680px;
+    padding: 0px 15px;
+    margin: 0 auto;
+}
+// === / common styles ===
