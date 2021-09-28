@@ -36,14 +36,15 @@
     </header>
     <main class="page-main-content">
       <div class="page-container">
-        <h1 class="page-main-content-title">We are launching soon!</h1>
+        <h1 class="page-main-content-title">We are launching <span class="bold">soon!</span></h1>
         <p class="page-main-content-subtitle">Subscribe and get notified</p>
         <form action="/" method="GET" class="page-main-content-form">
-          <div class="age-main-content-form-item">
-            <input type="email" name="Email-address" class="age-main-content-form-item__email">
+          <div class="page-main-content-form-item input">
+            <input type="email" name="Email-address" class="page-main-content-form-item__email" placeholder="Your email address...">
+            <small class="page-main-content-form-item__message">Please provide a valid email address</small>
           </div>
-          <div class="age-main-content-form-item">
-            <button type="submit">Notify Me</button>
+          <div class="page-main-content-form-item btn">
+            <button class="page-main-content-form-item__btn" type="submit">Notify Me</button>
           </div>
         </form>
         <div class="page-main-content-form-dashboard">
