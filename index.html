@@ -29,6 +29,7 @@
 <body>
 
   <div class="wrapper">
+    <!-- header -->
     <header class="page-header">
       <div class="page-container">
         <img src="images/logo.svg" alt="logo" class="page-header__logo">
@@ -40,7 +41,28 @@
         </p>
       </div>
     </header>
-    <main class="page-main">page-main</main>
+    <!-- / header -->
+
+    <!-- main -->
+    <main class="page-main">
+      <div class="page-container">
+        <form action="/" method="GET" class="page-main__form">
+          <div class="page-main__form-field">
+            <input type="email" name="emailAddress" placeholder="Your email address..."
+              class="page-main__form-field-email">
+            <small class="page-main__form-field-message">Please provide a valid email address</small>
+          </div>
+          <div class="page-main__form-field">
+            <button type="submit" class="page-main__form-field-submit">Notify Me</button>
+          </div>
+        </form>
+        <div class="page-main__dashboard">
+          <img src="/images/illustration-dashboard.png" alt="" class="page-main__dashboard-img" />
+        </div>
+      </div>
+    </main>
+    <!-- / main -->
+    
     <footer class="page-footer">page-footer</footer>
   </div>
 
