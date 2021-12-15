@@ -209,7 +209,11 @@ body {
 @media (max-width: 450px) {
   .page-main__form .form-btn {
     width: 100%;
-    margin-top: 50px;
+    margin-top: 30px;
   }
+}
+
+.page-main__dashboard-img {
+  width: 100%;
 }
 /*# sourceMappingURL=style.css.map */
