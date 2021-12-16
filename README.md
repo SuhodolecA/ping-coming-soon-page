@@ -1,5 +1,7 @@
 # Frontend Mentor - Ping coming soon page
 
+[Link to solution](https://ping-coming-soon-page-sandy.vercel.app/)
+
 ![Design preview for the Ping coming soon page coding challenge](./design/desktop-preview.jpg)
 
 ## Welcome! 👋
