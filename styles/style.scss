@@ -21,6 +21,15 @@ $primary-font-family:'Libre Franklin', sans-serif;
     padding: 0;
 }
 
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
 body {
     font-family: $primary-font-family;
     font-size: $primary-font-size;
@@ -35,6 +44,7 @@ body {
 .wrapper {
     max-width: 1440px;
     padding-top: 80px;
+    padding-bottom: 50px;
     margin: 0 auto;
 }
 
@@ -51,7 +61,7 @@ body {
     margin-bottom: 30px;
 
     &__logo {
-        margin-bottom: 50px;
+        margin-bottom: 40px;
     }
     &__title {
         color: $gray;
@@ -69,6 +79,7 @@ body {
 
 // === main ====
 .page-main {
+    margin-bottom: 60px;
     &__form {
         display: flex;
         flex-wrap: wrap;
@@ -178,6 +189,56 @@ body {
     }
 }
 // === / main ====
+
+// === footer ===
+.page-footer {
+    text-align: center;
+
+    &__social {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 25px;
+
+        &-item + &-item {
+            margin-left: 10px;
+        }
+
+        &-item {
+           &-link {
+               width: 30px;
+               height: 30px;
+               border: 1px solid hsla(223, 100%, 88%, .5);
+               border-radius: 50%;
+               display: flex;
+               align-items: center;
+               justify-content: center;
+               color: $blue;
+               transition: color .2s linear, background .2s linear, border .2s linear;
+
+               &:hover {
+                   color: hsl(100, 100%, 100%);
+                   background: $blue;
+                   border-color: transparent;
+               }
+
+               &:active {
+                color: hsla(100, 100%, 100%, .2);
+               }
+           }
+        }
+
+
+    }
+
+    &__copy {
+        font-size: 12px;
+        color: $gray;
+    }
+}
+
+// === / footer ===
+
 
 // .page-main-content {
 //     text-align: center;
